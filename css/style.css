@@ -1,13 +1,13 @@
 * {
     padding: 0px;
     margin: 0px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-sizing: border-box;
+    font-family: "Codec cold",sans-serif;
   }
   
   body {
-      background: #36D1DC;
-      background: linear-gradient(to right, #5B86E5, #36D1DC);
+    background: #36D1DC;
+    background: linear-gradient(to right, #5bb2e5, #51f3ff);
       
   }
   
@@ -39,7 +39,6 @@
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    font-family: "Codec cold",sans-serif;
     font-size: 16px;
     font-weight: 700;
     height: 54px;
@@ -74,7 +73,6 @@
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    font-family: "Codec cold",sans-serif;
     font-size: 16px;
     font-weight: 700;
     height: 54px;
@@ -115,17 +113,24 @@
       font-size: 15px;
       color: white;
   }
-  main p{
+  .info{
     position: absolute;
+    text-align: justify;
     left: 20%;
     right: 4.25%;
-    top: 15%;
-    
+    top: 45%;
+    font-size: 30px;
   }
-
-  aside{
-
+  main img{
     position: relative;
+    top: 20px;
+    height: 250px;
+    left: 16%;
+  }
+  
+  aside{
+    position: absolute;
+    top: 120px;
     width: 15%;
     height: 844px;
     background-color: rgb(23, 48, 130);
@@ -156,18 +161,21 @@
     position: relative;
     text-align: justify;
     top: 6%;
-    left: 12.5%;
-    width: 75%;
+    left: 7.5%;
+    width: 85%;
   }
   aside a{
     position: relative;
     text-decoration: none;
-    color: lightgray;
-    top: 6%;
-    left: 38%;
+    color: red;
+    top: 7%;
+    left: 65%;
     width: 75%;
     text-decoration: underline;
     text-underline-offset: 2px;
-    
+  
+  }
+  aside a:hover{
+    color: yellow;
   }
 
