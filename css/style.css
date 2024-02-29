@@ -8,6 +8,7 @@
   body {
       background: #36D1DC;
       background: linear-gradient(to right, #5B86E5, #36D1DC);
+      
   }
   
   main{
@@ -22,7 +23,7 @@
 
   .logo {
       position: absolute;
-      left: 46.5%;
+      left: 54%;
       top: 12%;
       height: 100px;
   }
@@ -53,7 +54,7 @@
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    left: 25%;
+    left: 28.4%;
     top: 30%;
     transition: 0.5s all;
   }
@@ -88,7 +89,7 @@
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    left: 74.1%;
+    left: 82%;
     top: 30%;
     transition: 0.5s all;
   }
@@ -114,25 +115,59 @@
       font-size: 15px;
       color: white;
   }
-
-  .side{
+  main p{
     position: absolute;
-    width: 300px;
-    height: 1000px;
-    background-color: rgb(23, 48, 130); 
+    left: 20%;
+    right: 4.25%;
+    top: 15%;
+    
   }
-  
-  aside p{
-    text-align: justify;
-    position: absolute;
-    width: 200px;
-    left: 17%;
+
+  aside{
+
+    position: relative;
+    width: 15%;
+    height: 844px;
+    background-color: rgb(23, 48, 130);
     color: white;
   }
 
-  main p{
-    position: absolute;
-    top: 15%;
-    left: 18%;
+
+  aside h2{
+    text-decoration: underline 3px white;
+    text-underline-offset: 5px;
+    position: relative;
+    text-align: center;
+    top: 1%;
+  }
+  aside h3{
+    color: gray;
+    position: relative;
+    top: 6%;
+    text-align: center;
+  }
+  aside h4{
+    color: lightgray;
+    position: relative;
+    top: 6%;
+    text-align: center;
+  }
+  aside p{
+    position: relative;
+    text-align: justify;
+    top: 6%;
+    left: 12.5%;
     width: 75%;
   }
+  aside a{
+    position: relative;
+    text-decoration: none;
+    color: lightgray;
+    top: 6%;
+    left: 38%;
+    width: 75%;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    
+  }
+
