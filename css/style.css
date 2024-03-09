@@ -7,7 +7,7 @@
   
   body {
     background: #36D1DC;
-    background: linear-gradient(to right, #5bb2e5, #51f3ff);
+    background: linear-gradient(to left, rgb(46, 131, 187), #44f3ff);
       
   }
   
@@ -66,7 +66,7 @@
   }
 
   .sport {
-      position: absolute;
+    position: absolute;
     align-items: center;
     background-color: red;
     border: 0;
@@ -115,6 +115,7 @@
       top: 30%;
       font-size: 15px;
       color: white;
+      
   }
   main p{
     position: absolute;
@@ -125,6 +126,7 @@
     font-size: 30px;
   }
   .info{
+    
     position: absolute;
     text-align: justify;
     left: 4%;
@@ -139,6 +141,14 @@
     left: 16%;
   }
   
+  h5{
+    position: absolute;
+    left: 20%;
+    top: 28%;
+    font-size: 30px;
+    font-weight: normal;
+  }
+
   aside{
     position: absolute;
     top: 120px;
